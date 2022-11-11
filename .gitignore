@@ -11,5 +11,8 @@ target
 **/*.rs.bk
 Cargo.lock
 bin/
-pkg/
+# We have to explicitly allow the /pkg route to be included
+# with our GitHub repo, because npm imports from here. You could
+# also move the compiled pkg files somewhere within the web project itself.
+# pkg/
 wasm-pack.log
