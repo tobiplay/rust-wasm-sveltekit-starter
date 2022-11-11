@@ -16,5 +16,5 @@ extern "C" {
 
 #[wasm_bindgen]
 pub fn greet() {
-    alert("Hello, wasm-game-of-life!");
+    alert("Hello, from hello-wasm!");
 }
