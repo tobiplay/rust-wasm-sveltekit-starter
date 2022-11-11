@@ -9,6 +9,7 @@ node_modules
 
 target
 **/*.rs.bk
+pkg/
 Cargo.lock
 bin/
 wasm-pack.log
